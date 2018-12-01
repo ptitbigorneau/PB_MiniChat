@@ -36,12 +36,12 @@ $bas_page = $config['footer'];
                     <tr>
                         <td><label for="user">Pseudo</label></td>
                         <td><b>:</b></td>
-                        <td><input type="text" name="user" id="user" value="<?php echo $_SESSION['user']; ?>" required="required"/></td>
+                        <td><input minlength="3" maxlength="14" type="text" name="user" id="user" value="<?php echo $_SESSION['user']; ?>" required="required"/></td>
                     </tr>
                     <tr>
                         <td><label for="message">Message</label></td>
                         <td><b>:</b></td>
-                        <td><input type="text" name="message" id="message" size="80" required="required"/></td>
+                        <td><input maxlength="144" type="text" name="message" id="message" size="70" required="required"/></td>
                     </tr>
                 </table>
                 <div id="form_emoticones">

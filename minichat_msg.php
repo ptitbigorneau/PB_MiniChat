@@ -11,7 +11,7 @@ while ($donnees = $reponse->fetch()) {
     $message = emoticone_message($donnees['message']);
     $message = mot_trop_long($message, 30, " ");
 ?>
-<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                                                                                                                  -->
                 <tr class="tr1">
                     <td class="td1"><?php echo $donnees['date'];?></td>
                     <td class="td2"><?php echo $donnees['heure'];?></td>
@@ -19,7 +19,7 @@ while ($donnees = $reponse->fetch()) {
                     <td><b>: </b></td>
                     <td class="td4"><?php echo $message;?></td>
                 </tr>
-<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                                                                                                                  -->
 <?php
 }
 $reponse->closeCursor();

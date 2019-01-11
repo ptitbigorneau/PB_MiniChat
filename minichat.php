@@ -21,7 +21,7 @@ $bas_page = $config['footer'];
     <header>
         <h1><?php echo $titre_header; ?></h1>
     </header>
-<!-- ---------------------------------------------------------------- block Message ---------------------------------------------------------------- -->
+<!--                                                                   block Message                                                                  -->
         <section id="block_msg">
             <table>
                 <?php
@@ -29,7 +29,7 @@ $bas_page = $config['footer'];
                 ?>
             </table>
         </section>
-<!-- ------------------------------------------------------------------ Formulaire ------------------------------------------------------------------ -->
+<!--                                                                    Formulaire                                                                    -->
         <section id="block_form">
             <form action="minichat_post.php" method="post">
                 <table>
@@ -50,13 +50,13 @@ $bas_page = $config['footer'];
                 <input id="bouton" type="submit" name="submit" value="Envoyer" />
             </form>
         </section>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--                                                                                                                                                  -->
         <footer>
             <div id="baspage">
                 <p><?php echo $bas_page; ?></p>
             </div>
         </footer>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--                                                                                                                                                  -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/minichat.js"></script>
     </body>
